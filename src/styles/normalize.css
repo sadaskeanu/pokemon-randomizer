@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+blockquote,
+dl,
+dd,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  outline: rgba(128, 0, 128) solid 2px;
+}
+
+svg {
+  display: block;
+}
+
+hr {
+  margin: 0;
+  border: 0;
+}
+
+button {
+  border: 0;
+  background-color: initial;
+  font-family: inherit;
+  font-size: inherit;
+}
