@@ -1,0 +1,30 @@
+.rotator {
+  position: relative;
+}
+
+.surface {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  will-change: transform;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 350ms ease-out;
+}
+
+.step {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.step:last-child {
+  transform: rotateY(180deg);
+}
