@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('./assets/cover.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rotator {
+  width: 230px;
+  height: 350px;
+}
